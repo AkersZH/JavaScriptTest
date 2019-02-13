@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>我的第一段 JavaScript</h1>
+
+<p id="demo">
+JavaScript 能改变 HTML 元素的内容。
+</p>
+
+<script>
+function changeHtml () {
+    let x = document.getElementById('demo')
+    x.innerHTML = '你好,javaScript'
+    // 改变图片路径
+    // x.src = '新图片的路径'
+    // 改变样式
+    // x.style.color = '#000000'
+}
+</script>
+
+<button type="button" onclick="changeHtml()">点击这里</button>
+
+</body>
+</html>
